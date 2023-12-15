@@ -1014,6 +1014,11 @@ body {
 
 /* Стилі для великих екранів (дисплей максимум 1199рх) */
 @media (max-width: 1199px) {
+    /* .main__block1 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    } */
     .main__block1-img {
         max-width: 450px;
         top: 350px;
@@ -1032,6 +1037,10 @@ body {
         flex-direction: column;
         align-items: center;
         padding: 100px 0;
+    }
+    .main__block4-left {
+        display: flex;
+        align-items: center;
     }
     .main__block4-icon {
         display: none;
@@ -1078,6 +1087,10 @@ body {
 
 /* Стилі для середніх екранів (дисплей максимум 991рх) */
     @media (max-width: 991px) {
+        .main__block1-bgraund {
+            padding-left: 0;
+            text-align: center;
+        }
         .head__text {
             display: none;
         }
@@ -1201,6 +1214,20 @@ body {
         .main__block9-texts {
             max-width: 300px;
             margin: 0 auto;
+        }
+        .foot__card2-text {
+            display: none;
+        }
+        .grey {
+            display: none;
+        }
+        .foot__card3-text1, .foot__card3-text2 {
+            display: none;
+        }
+        .foot__card3 {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
         }
     }
 
