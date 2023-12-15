@@ -3,7 +3,7 @@
     margin: 0; 
     border: 0; 
     text-decoration: none; 
-    /* outline: 1px solid black; */
+    outline: 1px solid black;
 } 
 @font-face {
     font-family: Poppins;
@@ -34,6 +34,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 html{ 
 scroll-behavior: smooth; 
+overflow-x: hidden;
 }
 body {
     overflow-x: hidden;
