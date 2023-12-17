@@ -1196,7 +1196,7 @@ body {
     border-radius: 10px;
     transition: 0.5s;
     top: 40px;
-    left: -400px;
+    left: -700px;
 }
 .modal01.dop {
     left: -40px;
@@ -1217,12 +1217,14 @@ body {
     box-shadow: 0 0 10px black;
     border-radius: 10px;
     transition: 0.5s;
-    top: 300px;
-    left: -40px;
+    top: 40px;
+    left: -700px;
+    /* top: 300px;
+    left: -40px; */
 }
 .modal02.dop {
-    top: 40px;
-    transform: rotate(360deg);
+    /* top: 40px; */
+    left: -40px;
 }
 .svg3 {
     cursor: pointer;
@@ -1241,10 +1243,23 @@ body {
     border-radius: 10px;
     transition: 0.5s;
     top: 40px;
-    right: -400px;
+    left: -700px;
 }
 .modal03.dop {
-    right: -40px;
+    left: -40px;
+}
+.modal01, .modal02, .modal03, .modal01.dop, .modal02.dop, .modal03.dop {
+    display: none;
+}
+.modal1, .modal2, .modal3, .modal4, .modal5, .modal6 {
+    display: none;
+}
+.modal1.dop, .modal2.dop, .modal3.dop, .modal4.dop, .modal5.dop, .modal6.dop {
+    display: none;
+}
+.SVG:hover, .SVG2:hover, .SVG3:hover, .SVG4:hover, .SVG5:hover, .SVG6:hover {
+    cursor: auto;
+    transform: scale(1);
 }
 /* Стилі для великих екранів (дисплей максимум 1199рх) */
 @media (max-width: 1199px) {
@@ -1316,16 +1331,6 @@ body {
     }
     .head__block1icon {
         padding-right: 30px;
-    }
-    .modal1, .modal2, .modal3, .modal4, .modal5, .modal6 {
-        display: none;
-    }
-    .modal1.dop, .modal2.dop, .modal3.dop, .modal4.dop, .modal5.dop, .modal6.dop {
-        display: none;
-    }
-    .SVG:hover, .SVG2:hover, .SVG3:hover, .SVG4:hover, .SVG5:hover, .SVG6:hover {
-        cursor: auto;
-        transform: scale(1);
     }
 }
 
@@ -1499,6 +1504,9 @@ body {
         }
         .foot__card3-title {
             margin-bottom: 25px;
+        }
+        .modal01, .modal02, .modal03, .modal01.dop, .modal02.dop, .modal03.dop {
+            display: block;
         }
     }
 

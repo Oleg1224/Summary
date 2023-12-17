@@ -93,6 +93,8 @@ let modal01 = document.querySelector('.modal01');
 bSvg.addEventListener('click', function() {
     if (modal01.className === 'modal01') {
         modal01.classList.add('dop')
+        modal02.classList.remove('dop')
+        modal03.classList.remove('dop')
     }
     else {
         modal01.classList.remove('dop')
@@ -103,6 +105,8 @@ let modal02 = document.querySelector('.modal02');
 bSvg2.addEventListener('click', function() {
     if (modal02.className === 'modal02') {
         modal02.classList.add('dop')
+        modal01.classList.remove('dop')
+        modal03.classList.remove('dop')
     }
     else {
         modal02.classList.remove('dop')
@@ -113,6 +117,8 @@ let modal03 = document.querySelector('.modal03');
 bSvg3.addEventListener('click', function() {
     if (modal03.className === 'modal03') {
         modal03.classList.add('dop')
+        modal01.classList.remove('dop')
+        modal02.classList.remove('dop')
     }
     else {
         modal03.classList.remove('dop')
