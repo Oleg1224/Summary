@@ -3,6 +3,8 @@ let modal1 = document.querySelector('.modal1');
 aSvg.addEventListener('click', function() {
     if (modal1.className === 'modal1') {
         modal1.classList.add('dop')
+        modal2.classList.remove('dop')
+        modal3.classList.remove('dop')
     }
     else {
         modal1.classList.remove('dop')
