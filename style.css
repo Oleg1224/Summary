@@ -79,8 +79,11 @@ body {
 }
 .head__block2icon {
     display: flex;
+    align-items: center;
     gap: 30px;
 }
+/* .head__block2icon.dop {
+} */
 .head__block2text {
     color: var(--main, #377DFF);
     font-family: Poppins;
@@ -317,7 +320,7 @@ body {
     transition: 0.3s;
 }
 .SVG:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .modal1 {
     transform: scale(0);
@@ -352,15 +355,120 @@ body {
 .modal1.dop {
     transform: scale(1);
 }
+.SVG2 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.SVG2:hover {
+    transform: scale(1.2);
+}
+.modal2 {
+    transform: scale(0);
+    width: 200px;
+    transition: 1s;
+    position: absolute;
+    background: #233142;
+    top: 80px;
+    left: -70px;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+}
 .modal2.dop {
-    width: 250px;
-    height: 200px;
-    border: 1px solid #000;
+    transform: scale(1);
+}
+.SVG3 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.SVG3:hover {
+    transform: scale(1.2);
+}
+.modal3 {
+    transform: scale(0);
+    width: 200px;
+    transition: 1s;
+    position: absolute;
+    background: #233142;
+    top: 80px;
+    left: -70px;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
 }
 .modal3.dop {
-    width: 250px;
-    height: 200px;
-    border: 1px solid #000;
+    transform: scale(1);
+}
+.SVG4 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.SVG4:hover {
+    transform: scale(1.2);
+}
+.modal4 {
+    transform: scale(0);
+    width: 210px;
+    transition: 1s;
+    position: absolute;
+    background: #233142;
+    top: 50px;
+    left: -80px;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 6px;
+}
+.modal4.dop {
+    transform: scale(1);
+}
+.SVG5 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.SVG5:hover {
+    transform: scale(1.2);
+}
+.modal5 {
+    transform: scale(0);
+    width: 260px;
+    transition: 1s;
+    position: absolute;
+    background: #233142;
+    top: 50px;
+    left: -100px;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 6px;
+}
+.modal5.dop {
+    transform: scale(1);
+}
+.SVG6 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.SVG6:hover {
+    transform: scale(1.2);
+}
+.modal6 {
+    transform: scale(0);
+    width: 230px;
+    transition: 1s;
+    position: absolute;
+    background: #233142;
+    top: 50px;
+    left: -90px;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 6px;
+}
+.modal6.dop {
+    transform: scale(1);
 }
 .main__block3-text1 {
     color: #FFF;
@@ -1277,6 +1385,17 @@ body {
             display: flex;
             flex-direction: column;
             align-items: start;
+
+        }
+        .galka {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .ico {
+            display: flex;
+            align-items: center;
+            gap: 30px;
         }
     }
 
