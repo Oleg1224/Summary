@@ -88,3 +88,33 @@ aSvg6.addEventListener('click', function() {
         modal6.classList.remove('dop')
     }
 })
+let bSvg = document.querySelector('.svg');
+let modal01 = document.querySelector('.modal01');
+bSvg.addEventListener('click', function() {
+    if (modal01.className === 'modal01') {
+        modal01.classList.add('dop')
+    }
+    else {
+        modal01.classList.remove('dop')
+    }
+})
+let bSvg2 = document.querySelector('.svg2');
+let modal02 = document.querySelector('.modal02');
+bSvg2.addEventListener('click', function() {
+    if (modal02.className === 'modal02') {
+        modal02.classList.add('dop')
+    }
+    else {
+        modal02.classList.remove('dop')
+    }
+})
+let bSvg3 = document.querySelector('.svg3');
+let modal03 = document.querySelector('.modal03');
+bSvg3.addEventListener('click', function() {
+    if (modal03.className === 'modal03') {
+        modal03.classList.add('dop')
+    }
+    else {
+        modal03.classList.remove('dop')
+    }
+})
