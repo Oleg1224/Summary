@@ -124,3 +124,49 @@ bSvg3.addEventListener('click', function() {
         modal03.classList.remove('dop')
     }
 })
+let cSvg = document.querySelector('.Svg');
+let modal001 = document.querySelector('.modal001');
+cSvg.addEventListener('click', function() {
+    if (modal001.className === 'modal001') {
+        modal001.classList.add('dop')
+        modal002.classList.remove('dop')
+        modal003.classList.remove('dop')
+    }
+    else {
+        modal001.classList.remove('dop')
+    }
+})
+let cSvg2 = document.querySelector('.Svg2');
+let modal002 = document.querySelector('.modal002');
+cSvg2.addEventListener('click', function() {
+    if (modal002.className === 'modal002') {
+        modal002.classList.add('dop')
+        modal001.classList.remove('dop')
+        modal003.classList.remove('dop')
+    }
+    else {
+        modal002.classList.remove('dop')
+    }
+})
+let cSvg3 = document.querySelector('.Svg3');
+let modal003 = document.querySelector('.modal003');
+cSvg3.addEventListener('click', function() {
+    if (modal003.className === 'modal003') {
+        modal003.classList.add('dop')
+        modal001.classList.remove('dop')
+        modal002.classList.remove('dop')
+    }
+    else {
+        modal003.classList.remove('dop')
+    }
+})
+let headBlockIco = document.querySelector('.head__block2icon')
+let titleModal = document.querySelector('.title-modal');
+headBlockIco.addEventListener('click', function() {
+    if (titleModal.className === 'titleModal') {
+        titleModal.classList.add('dop')
+    }
+    else {
+        titleModal.classList.remove('dop')
+    }
+})
