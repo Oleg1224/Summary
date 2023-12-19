@@ -76,7 +76,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+    /* position: relative; */
 }
 .head__block2icon {
     display: flex;
@@ -102,6 +102,7 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     padding: 22px 0;
+    /* position: relative; */
 }
 .head__bgraund2.new {
     background: #54677f;
@@ -552,6 +553,12 @@ body {
     align-items: start;
     /* padding-top: 276px; */
     gap: 70px;
+    position: relative;
+    left: -1000px;
+    transition: 1s;
+}
+.main__block4-left.new {
+    left: 0;
 }
 .main__block4-text {
     /* width: 220px; */
@@ -599,6 +606,12 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
+    position: relative;
+    right: -1000px;
+    transition: 1.5s;
+}
+.main__block4-right.new {
+    right: 0;
 }
 .main__block4-card {
     display: flex;
@@ -1359,7 +1372,7 @@ body {
 .modal__text {
     color: #FFF;
     font-family: Poppins;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
 }
 .title-SVG {
@@ -1370,23 +1383,28 @@ body {
     transform: scale(1.2);
 }
 .title-modal {
-    transform: scale(1);
+    /* transform: scale(0); */
+    opacity: 0;
     width: 250px;
-    border: 1px solid #ff0000;
+    border: 1px solid #ffffff;
     box-shadow: 0 0 10px black;
-    position: absolute;
-    top: 40px;
+    position: fixed;
+    top: 70px;
     transition: 1s;
-    background: #000;
     color: white;
-    z-index: 6;
+    z-index: 60;
     display: flex;
     flex-direction: column;
     padding: 10px;
     border-radius: 10px;
+    background-image: url(./img/Rectangle.png);
+    background-size: cover;
+    text-align: center;
 }
 .title-modal.dop {
-    transform: scale(1);
+    /* transform: scale(1); */
+    opacity: 1;
+    transform: rotate(360deg);
 }
 .SVG:hover, .SVG2:hover, .SVG3:hover, .SVG4:hover, .SVG5:hover, .SVG6:hover {
     cursor: auto;

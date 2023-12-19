@@ -160,10 +160,10 @@ cSvg3.addEventListener('click', function() {
         modal003.classList.remove('dop')
     }
 })
-let .titleSVG = document.querySelector('.title-SVG')
+let titleSVG = document.querySelector('.title-SVG')
 let titleModal = document.querySelector('.title-modal');
 titleSVG.addEventListener('click', function() {
-    if (titleModal.className === 'titleModal') {
+    if (titleModal.className === 'title-modal') {
         titleModal.classList.add('dop')
     }
     else {

@@ -16,3 +16,21 @@ window.addEventListener('scroll', function() {
         mainBlock2.classList.remove('new')
     }
 })
+let mainBlock4left = document.querySelector('.main__block4-left');
+window.addEventListener('scroll', function() {
+    if (this.scrollY > 1300) {
+        mainBlock4left.classList.add('new')
+    }
+    else {
+        mainBlock4left.classList.remove('new')
+    }
+})
+let mainBlock4right = document.querySelector('.main__block4-right');
+window.addEventListener('scroll', function() {
+    if (this.scrollY > 1700) {
+        mainBlock4right.classList.add('new')
+    }
+    else {
+        mainBlock4right.classList.remove('new')
+    }
+})
